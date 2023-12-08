@@ -47,5 +47,9 @@
 - Implementation of all page jumps
 - More difficult interface animation: after scrolling down, a hoverball button appears, and you can jump by clicking on it
 - Use Baidu Map API to achieve location acquisition and positioning function
+<div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/navi.png?raw=true"/></div>
+
 - Determine whether to register or not and jump to the interface accordingly
-- By accessing the Beijing Parks database, the corresponding content is filled into the interface.
+- Use Python crawler to get the information of all the parks counted in the Beijing Municipal Bureau of Landscape Architecture and Greening, a total of 1,050  
+<div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/database.png?raw=true"/></div>
+
