@@ -39,4 +39,13 @@
 <div align=center><img src=""/></div>
 <p align="center">The image above shows the UI based on winter</p>
 
-# 2.Technical realisation
+# 2.Technical Realisation
+## 2.1 Usage Process
+<div align=center><img src=""/></div>
+
+## 2.2 Functional Realisation
+- Implementation of all page jumps
+- More difficult interface animation: after scrolling down, a hoverball button appears, and you can jump by clicking on it
+- Use Baidu Map API to achieve location acquisition and positioning function
+- Determine whether to register or not and jump to the interface accordingly
+- By accessing the Beijing Parks database, the corresponding content is filled into the interface.
