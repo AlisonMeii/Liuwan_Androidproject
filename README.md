@@ -7,8 +7,8 @@
 <strong>tags:</strong> <strong>city life</strong>&emsp;<strong>Community Activities</strong>&emsp;<strong>physical exercise</strong>&emsp;<strong>travels</strong>&emsp;<strong>enjoy leisure</strong>  
 <div align=center><img src=""/></div>
 
-- Beijing is a large city with many parks, numbering 1,000+.
-- Park visits in high demand, 280w visitors on National Day holiday
+- Beijing is a large city with many parks, numbering 1,000+
+- Park visits in high demand, 280w visitors on National Day holiday(Data source: Beijing Daily Chinese government website)
 - Beijing's parks are rich and varied, making them an excellent choice for citizens and tourists.   
 - People are focusing more and more on spirituality in their leisure time.
 
