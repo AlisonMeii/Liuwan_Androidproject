@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LiuWan" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lw_2</item>
+        <item name="colorPrimaryVariant">@color/lw_2</item>
+        <item name="colorOnPrimary">@color/back_1</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lw_2</item>
+        <item name="colorSecondaryVariant">@color/lw_2</item>
+        <item name="colorOnSecondary">@color/back_1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <!-- 设置全屏-->
+        <item name="android:windowFullscreen">true</item>
+        <!-- 设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--checkbox-->
+    <style name="CheckBoxTheme">
+        <item name="colorAccent">@color/lw_1</item><!--选中颜色-->
+        <item name="colorControlNormal">@color/lw_1</item><!--未选中颜色-->
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

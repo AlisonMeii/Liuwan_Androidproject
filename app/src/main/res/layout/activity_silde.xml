@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SildeActivity">
+
+    <com.example.liuwan.SlideMenu
+        android:id="@+id/sd_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <include layout="@layout/activity_homepage"/>
+        <include layout="@layout/layout_mine"/>
+    </com.example.liuwan.SlideMenu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

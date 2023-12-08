@@ -1,0 +1,40 @@
+<resources>
+    <string name="start">秋天到啦，一起去公园溜溜弯吧！</string>
+    <string name="login_welcome">走遍北京 亲近自然——您的专属北京公园溜弯指南</string>
+    <string name="login_signup">还没加入遛弯儿小队？点击注册</string>
+    <string name="login_sign">登录即表明同意用户服务协议及隐私条款</string>
+    <string name="signup_about">可以更了解您吗？</string>
+    <string name="detail_detail">         北京温榆河公园位于中心城区东北边缘，朝阳、顺义、昌平三区交界，温榆河、清河两河交汇处，是首都最大的“绿肺”。北京温榆河公园朝阳示范园区已经于2020年9月1日正式对外开放 。集生态涵养、生境修复、蓄滞洪功能于一体，兼顾文化、休闲、体育等多元功能，形成蓝绿交织、林水相依、生物多样、生态惠民的大尺度生态空间，努力打造成为首都生态文明建设“金名片”。  公园整体规划面积约30平方公里。</string>
+    <string name="detail_tip">
+一、关于北京温榆河公园疫情防控措施的通告根据疫情防控工作要求，进入北京温榆河公园时，请您主动配合扫码(健康宝)、测温，合格后方可入园。园区严格执行限流措施。游园过程中，请您做好自身防护，全程佩戴口罩，保持安全距离。疫情防控，人人有责，感谢您的理解与配合。
+
+二、公园门区及停车场开放情况
+
+当前公园朝阳示范区仅开放1、9号门区及其停车场;
+
+一期开放18、23号门及P18、P25号停车场。
+
+给您带来的不便敬请谅解，后续将根据入园游客数量和需求进行调整，请您及时关注园区公告。</string>
+    <string name="app_name">LiuWan</string>
+    <string name="main">请输入完整的帖子标题(5-15字)</string>
+    <string name="anquan">安全</string>
+    <string name="chuangzuo">创作中心</string>
+    <string name="shoucang">收藏</string>
+    <string name="liulan">浏览记录</string>
+    <string name="waiguan">外观</string>
+    <string name="guanyu">关于我们</string>
+    <string name="content">请尽情发挥吧...</string>
+    <string name="mine">进入”我的“</string>
+    <string name="out">退出”我的“</string>
+
+
+    <string name="title_activity_explore11">explore11</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

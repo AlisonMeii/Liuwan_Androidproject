@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="1080px"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <ImageView
+        android:id="@+id/homepage_dropdown"
+        android:layout_width="match_parent"
+        android:layout_height="1920px"
+        android:background="@drawable/homepage_dropdown"
+        android:clickable="true"
+        android:elevation="1dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/homepage_searchbox"
+        android:layout_width="842px"
+        android:layout_height="111px"
+        android:layout_marginTop="80px"
+        android:background="@drawable/search_box"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homepage_dropdown"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:layout_margin="32px"
+        android:background="@drawable/icon_qrcode"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homepage_searchbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homepage_searchbox" />
+
+    <ImageView
+        android:id="@+id/search_icon"
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:layout_margin="32px"
+        android:background="@drawable/icon_search"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homepage_searchbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homepage_searchbox" />
+
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:background="@android:color/transparent"
+        android:hint="搜索你想去的公园"
+        android:textSize="12dp"
+        android:textColor="#767676"
+        app:layout_constraintBottom_toBottomOf="@+id/homepage_searchbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homepage_searchbox" />
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="4dp"-->
+    <!--        android:elevation="1dp"-->
+    <!--        android:background="#99EEC373"-->
+    <!--        android:layout_marginBottom="30px"-->
+    <!--        app:layout_constraintBottom_toTopOf="@id/homepage_quick_link_area1"/>-->
+
+    <GridLayout
+        android:id="@+id/homepage_quick_link_area1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120px"
+        android:columnCount="4"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage_searchbox">
+
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="130px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link1"
+            android:elevation="5dp" />
+
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="130px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link2"
+            android:elevation="5dp" />
+
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="130px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link3"
+            android:elevation="5dp" />
+
+        <ImageView
+            android:layout_width="130px"
+            android:layout_height="130px"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="50px"
+            android:layout_marginRight="50px"
+            android:background="@drawable/icon_quick_link4"
+            android:elevation="5dp" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="自然风光"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="名胜古迹"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="露营野餐"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="拍照打卡"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="65px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link5"
+            android:elevation="5dp" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="115px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link6" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="115px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link7"
+            android:elevation="5dp" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_marginLeft="115px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/icon_quick_link8"
+            android:elevation="5dp" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="娱乐风光"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="体育锻炼"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="好店推荐"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="5px"
+            android:elevation="5dp"
+            android:text="好评推荐"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/homepage_quick_link_area2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90px"
+        android:columnCount="3"
+        android:elevation="5dp"
+        android:rowCount="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homepage_quick_link_area1">
+
+        <ImageView
+            android:layout_width="275px"
+            android:layout_height="180px"
+            android:layout_marginRight="60px"
+            android:background="@drawable/icon_quick_link9" />
+
+        <ImageView
+            android:layout_width="275px"
+            android:layout_height="180px"
+            android:layout_marginRight="60px"
+            android:background="@drawable/icon_quick_link10" />
+
+        <ImageView
+            android:layout_width="275px"
+            android:layout_height="180px"
+            android:background="@drawable/icon_quick_link11" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/homepage_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82px"
+        android:elevation="5dp"
+        android:text="精选推荐"
+        android:textColor="#3D3D3D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homepage_quick_link_area2" />
+
+    <HorizontalScrollView
+        android:id="@+id/homepage_scroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38px"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homepage_title1"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="372px"
+                android:layout_height="328px"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/homepage_img1" />
+
+            <ImageView
+                android:layout_width="372px"
+                android:layout_height="328px"
+                android:layout_marginLeft="50px"
+                android:background="@drawable/homepage_img1" />
+
+            <ImageView
+                android:layout_width="372px"
+                android:layout_height="328px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:background="@drawable/homepage_img1" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/homepage_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82px"
+        android:elevation="5dp"
+        android:text="全部公园"
+        android:textColor="#3D3D3D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homepage_scroll_view" />
+
+    <GridLayout
+        android:id="@+id/homepage_all_park_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:columnCount="5"
+        android:elevation="5dp"
+        android:paddingTop="34px"
+        android:rowCount="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/homepage_title2">
+
+        <TextView
+            android:layout_width="177px"
+            android:layout_height="56px"
+            android:background="@drawable/homepage_rounded_rect"
+            android:gravity="center"
+            android:text="十月好去处"
+            android:textColor="@color/white"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="56px"
+            android:layout_marginLeft="46px"
+            android:background="@drawable/homepage_rounded_rect"
+            android:gravity="center"
+            android:text="健身娱乐"
+            android:textColor="@color/white"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="128px"
+            android:layout_height="56px"
+            android:layout_marginLeft="46px"
+            android:background="@drawable/homepage_rounded_rect"
+            android:gravity="center"
+            android:text="户外溜娃"
+            android:textColor="@color/white"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="113px"
+            android:layout_height="56px"
+            android:layout_marginLeft="46px"
+            android:background="@drawable/homepage_rounded_rect"
+            android:gravity="center"
+            android:text="咖啡厅"
+            android:textColor="@color/white"
+            android:textSize="30px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="138px"
+            android:layout_height="56px"
+            android:layout_marginLeft="46px"
+            android:background="@drawable/homepage_rounded_rect"
+            android:gravity="center"
+            android:text="网红打卡"
+            android:textColor="@color/white"
+            android:textSize="30px"
+            android:textStyle="bold" />
+    </GridLayout>
+
+<!--    <ImageView-->
+<!--        android:layout_width="980px"-->
+<!--        android:layout_height="356px"-->
+<!--        android:layout_marginTop="30px"-->
+<!--        android:background="@drawable/homepage_img2"-->
+<!--        android:elevation="10dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/homepage_all_park_tag"/>-->
+
+<!--    <ScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="34px"-->
+<!--        android:elevation="5dp"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/homepage_all_park_tag"-->
+<!--        tools:ignore="SpeakableTextPresentCheck">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:elevation="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="980px"-->
+<!--                android:layout_height="356px"-->
+<!--                android:layout_marginTop="30px"-->
+<!--                android:background="@drawable/homepage_img2"-->
+<!--                android:elevation="10dp" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="980px"-->
+<!--                android:layout_height="356px"-->
+<!--                android:layout_marginTop="30px"-->
+<!--                android:background="@drawable/homepage_img2"-->
+<!--                android:elevation="10dp" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="980px"-->
+<!--                android:layout_height="356px"-->
+<!--                android:layout_marginTop="30px"-->
+<!--                android:layout_marginBottom="30px"-->
+<!--                android:background="@drawable/homepage_img2"-->
+<!--                android:elevation="10dp" />-->
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

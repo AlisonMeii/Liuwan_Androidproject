@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:elevation="5dp"
+        android:background="@drawable/homepage_navigator"/>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="1270px"
+        android:clickable="true" />
+
+
+    <ImageButton
+        android:id="@+id/homepage_logo_btn"
+        android:layout_width="248px"
+        android:layout_height="248px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50px"
+        android:background="@drawable/icon_homepage_logo"
+        android:elevation="5dp"
+        android:translationY="2000px" />
+
+    <ImageButton
+        android:id="@+id/homepage_my_btn"
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:background="@drawable/icon_homepage_my"
+        android:elevation="5dp"
+        android:translationX="180px"
+        android:translationY="1920px" />
+
+    <ImageButton
+        android:id="@+id/homepage_release"
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:background="@drawable/icon_homepage_release"
+        android:elevation="5dp"
+        android:translationX="430px"
+        android:translationY="1810px" />
+
+    <ImageButton
+        android:id="@+id/homepage_explore"
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:background="@drawable/icon_homepage_explore"
+        android:elevation="5dp"
+        android:translationX="680px"
+        android:translationY="1920px" />
+
+    <include layout="@layout/roadrescue_bottom_sheet"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lw_1">#876445</color>
+    <color name="lw_2">#CA965C</color>
+    <color name="lw_3">#EEC373</color>
+    <color name="lw_4">#F4DFBA</color>
+    <color name="back_1">#F2F2F7</color>
+    <color name="back_2">#E5E5EA</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#767676</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="word_1">#403E3B</color>
+</resources>

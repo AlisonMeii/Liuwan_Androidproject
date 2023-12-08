@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/bg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top3" />
+
+    <Button
+        android:id="@+id/btback_fb"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:background="@color/lw_2"
+        android:stateListAnimator="@null"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@id/bg1"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/liuwan"
+        app:layout_constraintTop_toBottomOf="@id/top"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/liuwan"
+        android:layout_width="175px"
+        android:layout_height="58px"
+        app:layout_constraintBottom_toBottomOf="@id/bg1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top"
+        app:srcCompat="@drawable/title" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        app:layout_constraintBottom_toBottomOf="@id/bg1"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/liuwan"
+        app:layout_constraintTop_toBottomOf="@id/top"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/instrcution"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        app:layout_constraintBottom_toBottomOf="@id/bg1"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintLeft_toRightOf="@id/liuwan"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top"
+        app:srcCompat="@drawable/instruction" />
+
+    <ImageView
+        android:id="@+id/success"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bg1"
+        app:layout_constraintVertical_bias="0.293"
+        app:srcCompat="@drawable/success" />
+
+    <TextView
+    android:id="@+id/fbcg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="发布成功！"
+    android:textSize="150px"
+    app:layout_constraintHorizontal_bias="0.554"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/success" />
+
+    <TextView
+        android:id="@+id/tishi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="审核通过后即会有更多溜友可见"
+        android:textSize="40px"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fbcg" />
+
+    <ImageView
+        android:id="@+id/pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="76dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tishi"
+        app:srcCompat="@drawable/pencil" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1080px"
+        android:layout_height="45px"
+        android:layout_marginTop="52dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/pb"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

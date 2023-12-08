@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingBottom="870dp"
+        app:srcCompat="@drawable/fliter_title" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:translationX="172.5dp"
+        android:translationY="43.5dp"
+        app:srcCompat="@drawable/fliter_title_catty" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="筛选条件"
+        android:textSize="25.05sp"
+        android:translationX="230.55dp"
+        android:translationY="51dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="筛选条件"
+        android:textSize="25.05sp"
+        android:translationX="230.55dp"
+        android:translationY="51dp" />
+
+    <Button
+        android:id="@+id/fliterbtn_1"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="湖泊"
+        android:textColor="#A7A7A7"
+        android:translationY="208.5dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_2"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="丘陵"
+        android:textColor="#A7A7A7"
+        android:translationY="294dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_3"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="主题类型"
+        android:textColor="#A7A7A7"
+        android:translationY="379.5dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_4"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="运动类型"
+        android:textColor="#A7A7A7"
+        android:translationY="465dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_5"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="占地面积"
+        android:textColor="#A7A7A7"
+        android:translationY="550.5dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_6"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="餐饮"
+        android:textColor="#A7A7A7"
+        android:translationY="636dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_7"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="宠物入园"
+        android:textColor="#A7A7A7"
+        android:translationY="721.5dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_8"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_pa"
+        android:text="亲子"
+        android:textColor="#A7A7A7"
+        android:translationY="807dp"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateClickableBoundsCheck">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fliterbtn_0"
+        android:layout_width="154.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliterbox_l_ac"
+        android:text="推荐筛选"
+        android:textColor="@color/lw_2"
+        android:translationY="123dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推荐筛选"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="156.5dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="推荐筛选"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="156.5dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="门票价格"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="360dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="门票价格"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="360dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="娱乐运动"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="517.5dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="娱乐运动"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="517.5dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="便利出行"
+        android:textSize="30sp"
+        android:translationX="180dp"
+        android:translationY="733.5dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选"
+        android:textColor="#A8A8A8"
+        android:textSize="15dp"
+        android:translationX="315dp"
+        android:translationY="174.5dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选"
+        android:textColor="#A8A8A8"
+        android:textSize="15dp"
+        android:translationX="315dp"
+        android:translationY="532.5dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选"
+        android:textColor="#A8A8A8"
+        android:textSize="15dp"
+        android:translationX="315dp"
+        android:translationY="748.5dp" />
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:translationX="154.5dp"
+        android:translationY="219dp">
+
+        <LinearLayout
+            android:layout_width="154.5dp"
+            android:layout_height="100.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="12.5dp"
+                android:text="网红打卡"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginBottom="12.5dp"
+                android:text="网络热门打卡拍照地"
+                android:textSize="10dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="154.5dp"
+            android:layout_height="100.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:text="购票优惠"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:text="全年优惠，随时预订随享折扣"
+                android:textSize="10.05dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="154.5dp"
+            android:layout_height="100.5dp"
+            android:layout_marginLeft="13.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:text="闪约"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginBottom="7.5dp"
+                android:text="立即预约门票，到场无需排队购票"
+                android:textSize="10.05dp"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationX="154.5dp"
+        android:translationY="570dp">
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:gravity="center"
+            android:text="足球"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c3"
+            android:gravity="center"
+            android:text="篮球"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c5"
+            android:gravity="center"
+            android:text="乒乓球"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:gravity="center"
+            android:text="跑步"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c3"
+            android:gravity="center"
+            android:text="徒步"
+            android:textSize="15sp"></TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationX="154.5dp"
+        android:translationY="634.5dp">
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c5"
+            android:gravity="center"
+            android:text="登山"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:gravity="center"
+            android:text="垂钓"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c3"
+            android:gravity="center"
+            android:text="亲子"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:gravity="center"
+            android:text="溜宠"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:layout_width="154.5dp"
+            android:layout_height="46.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c5"
+            android:gravity="center"
+            android:text="其他"
+            android:textSize="15sp"></TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="127.5dp"
+        android:orientation="horizontal"
+        android:translationX="154.5dp"
+        android:translationY="810dp">
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="61.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:orientation="vertical">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12.5dp"
+            android:layout_marginLeft="10dp"
+            android:text="公交"
+            android:textSize="15sp"></TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/filter_bus"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="61.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c5"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12.5dp"
+                android:layout_marginLeft="12.5dp"
+                android:text="地铁"
+                android:textSize="15sp"></TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="7.5dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/filter_subway"></ImageView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="61.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:layout_marginLeft="7dp"
+                android:text="核酸点"
+                android:textSize="12sp"></TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/filter_nucleic"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="61.5dp"
+            android:layout_marginLeft="24dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c5"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="13dp"
+                android:layout_marginLeft="3dp"
+                android:text="便利停车"
+                android:textSize="10.5sp"></TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="16.5dp"
+                android:src="@drawable/filter_parking"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="61.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_r_c4"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="13dp"
+                android:layout_marginLeft="3dp"
+                android:text="共享单车"
+                android:textSize="10.5sp"></TextView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="16.5dp"
+                android:src="@drawable/filter_bike"></ImageView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="328.5dp"
+        android:layout_height="3dp"
+        android:background="@color/back_2"
+        android:translationX="181.5dp"
+        android:translationY="336dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="328.5dp"
+        android:layout_height="3dp"
+        android:background="@color/back_2"
+        android:translationX="181.5dp"
+        android:translationY="493.5dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="328.5dp"
+        android:layout_height="3dp"
+        android:background="@color/back_2"
+        android:translationX="181.5dp"
+        android:translationY="709.5dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥不限—￥0"
+        android:textSize="15sp"
+        android:translationX="181.5dp"
+        android:translationY="405dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="213dp"
+        android:layout_height="10.5dp"
+        android:translationX="217.5dp"
+        android:translationY="442.5dp"
+        app:srcCompat="@drawable/seekbar" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:secondaryProgress="100"
+        android:secondaryProgressTint="@color/lw_3"
+        android:secondaryProgressTintMode="src_in"
+        android:thumbTint="@color/lw_2"
+        android:translationX="196.5dp"
+        android:translationY="443dp"
+         />
+
+    <SeekBar
+        android:id="@+id/seekBar6"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:rotationY="180"
+        android:secondaryProgress="100"
+        android:secondaryProgressTint="@color/lw_3"
+        android:secondaryProgressTintMode="src_in"
+        android:thumbTint="@color/lw_2"
+        android:translationX="304dp"
+        android:translationY="443dp" />
+
+    <Button
+        android:id="@+id/fliterlookup_btn"
+        android:layout_width="208.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliter_reset"
+        android:text="重置"
+        android:textColor="@color/white"
+        android:translationX="69dp"
+        android:translationY="915dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/fliterlookup_btn2"
+        android:layout_width="208.5dp"
+        android:layout_height="85.5dp"
+        android:background="@drawable/fliter_lookup"
+        android:backgroundTint="@color/lw_1"
+        android:text="查找"
+        android:textColor="@color/white"
+        android:translationX="277.5dp"
+        android:translationY="915dp"
+        android:textSize="20dp"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

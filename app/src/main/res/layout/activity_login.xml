@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/page2_logo"
+        />
+
+    <ImageView
+        android:id="@+id/iv_2"
+        android:layout_width="206dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_1"
+        app:layout_constraintBottom_toTopOf="@+id/iv_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/start_name"
+        />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/login_welcome"
+        android:textSize="18px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_2"
+        />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_forlogin"
+        android:hint="用户名/邮箱"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@color/word_1"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_1"
+        android:layout_marginTop="100dp"
+
+    />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="113dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1"
+        app:srcCompat="@drawable/im_cattytalk" />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_forlogin2"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@color/word_1"
+        android:textSize="25sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_1"
+
+        />
+
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:background="@drawable/bg_forbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_2"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_signup"
+        android:textColor="@color/lw_2"
+        android:textSize="18sp"
+        android:onClick="toRegister"
+        android:background="@drawable/bg_forbtn2"
+        android:stateListAnimator="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_1"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <RadioButton
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/login_sign"
+        android:textColor="@color/lw_1"
+        android:textSize="12sp"
+        android:theme="@style/CheckBoxTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_1"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

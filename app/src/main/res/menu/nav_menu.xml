@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_waiguan"
+            android:title="@string/waiguan"
+            android:icon="@drawable/icon_1"
+
+
+            />
+        <item
+            android:id="@+id/nav_anquan"
+            android:title="@string/anquan"
+            android:icon="@drawable/icon_2"
+            />
+        <item
+            android:id="@+id/nav_chuangzuo"
+            android:title="@string/chuangzuo"
+            android:icon="@drawable/icon_3"
+
+            />
+        <item
+            android:id="@+id/nav_shoucang"
+            android:title="@string/shoucang"
+            android:icon="@drawable/icon_4"
+            />
+
+        <item
+            android:id="@+id/nav_liulan"
+            android:title="@string/liulan"
+            android:icon="@drawable/icon_5"/>
+        <item
+            android:id="@+id/nav_guanyu"
+            android:title="@string/guanyu"
+            android:icon="@drawable/icon_6"/>
+    </group>
+
+
+
+
+</menu>

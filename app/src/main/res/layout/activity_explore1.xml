@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explore1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/tansuo1_bg"></ImageView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#03FFFFFF"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/tansuo_icon_back" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#03FFFFFF"
+                        android:scaleX="0.5"
+                        android:scaleY="0.5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.996"
+                        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/tansuo_icon_search" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+             <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="50dp"
+                     android:text="推荐"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                     android:textColor="#CA965C"
+                     android:textSize="46px"
+                     android:textStyle="bold"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintStart_toStartOf="parent"
+                     app:layout_constraintTop_toTopOf="parent" />
+
+                 <TextView
+                     android:id="@+id/textView2"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="20dp"
+                     android:text="打卡拍照"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                     android:textColor="#CA965C"
+                     android:textSize="46px"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintStart_toEndOf="@+id/textView1"
+                     app:layout_constraintTop_toTopOf="parent" />
+
+                 <TextView
+                     android:id="@+id/textView3"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="20dp"
+                     android:text="锻炼"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                     android:textColor="#CA965C"
+                     android:textSize="46px"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintStart_toEndOf="@+id/textView2"
+                     app:layout_constraintTop_toTopOf="parent" />
+
+                 <TextView
+                     android:id="@+id/textView4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="20dp"
+                     android:text="游玩"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                     android:textColor="#CA965C"
+                     android:textSize="46px"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintStart_toEndOf="@+id/textView3"
+                     app:layout_constraintTop_toTopOf="parent" />
+
+                 <TextView
+                     android:id="@+id/textView5"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="20dp"
+                     android:text="吃喝"
+                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                     android:textColor="#CA965C"
+                     android:textSize="46px"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintEnd_toEndOf="parent"
+                     app:layout_constraintHorizontal_bias="0.0"
+                     app:layout_constraintStart_toEndOf="@+id/textView4"
+                     app:layout_constraintTop_toTopOf="parent" />
+
+                 <ImageButton
+                     android:id="@+id/imageButton"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:backgroundTint="#00FFFFFF"
+                     android:scaleType="center"
+                     android:scaleX="0.5"
+                     android:scaleY="0.5"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     app:layout_constraintEnd_toEndOf="parent"
+                     app:layout_constraintHorizontal_bias="0.961"
+                     app:layout_constraintStart_toEndOf="@+id/textView5"
+                     app:layout_constraintTop_toTopOf="parent"
+                     app:srcCompat="@drawable/tansuo1_icon_down" />
+
+
+             </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:columnCount="2"
+            android:rowCount="4"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp">
+
+            <ImageButton
+                android:id="@+id/imageButton2_1"
+                android:layout_width="452px"
+                android:layout_height="614px"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#02FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tansuo_card" />
+
+            <ImageButton
+                android:id="@+id/imageButton2.2"
+                android:layout_width="452px"
+                android:layout_height="614px"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tansuo_card" />
+
+            <ImageButton
+                android:id="@+id/imageButton2.3"
+                android:layout_width="452px"
+                android:layout_height="614px"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tansuo_card" />
+
+            <ImageButton
+                android:id="@+id/imageButton2.4"
+                android:layout_width="452px"
+                android:layout_height="614px"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tansuo_card" />
+
+            <ImageButton
+                android:id="@+id/imageButton2.5"
+                android:layout_width="452px"
+                android:layout_height="614px"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tansuo_card" />
+
+            <ImageButton
+                android:id="@+id/imageButton2.6"
+                android:layout_width="452px"
+                android:layout_height="614px"
+                android:backgroundTint="#03FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tansuo_card" />
+
+
+        </GridLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
