@@ -1,5 +1,5 @@
 # Abstruct
-&emsp;&emsp;Our project is based on Android Studio. It is an app themed on Beijing parks.The purpose of our development is to make it easy for Beijing citizens to visit the parks in their leisure time. We not only provide users with park data, but also design services such as navigation and forums. Our project features different travel options according to the four seasons and a change in the theme colour of the app. It can better provide users with convenient travelling services.
+&emsp;&emsp;Our project is based on **Android Studio**. It is an **app** themed on **Beijing parks**.The purpose of our development is to make it easy for Beijing citizens to visit the parks in their leisure time. We not only provide users with park data, but also design services such as navigation and forums. Our project features different travel options according to the four seasons and a change in the theme colour of the app. It can better provide users with convenient travelling services.
 <div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/Abstruct.png?raw=true"/></div>
 
 # 1.Inspiration & Design
