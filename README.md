@@ -4,7 +4,7 @@
 
 # 1.Inspiration & Design
 ## 1.1 Project Background
-<strong>tags:</strong> <strong>city life</strong>&emsp;<strong>Community Activities</strong>&emsp;<strong>physical exercise</strong>&emsp;<strong>travels</strong>&emsp;<strong>enjoy leisure</strong>  
+<strong>tags:</strong> <strong>city life</strong>&emsp;<strong>community activities</strong>&emsp;<strong>physical exercise</strong>&emsp;<strong>travels</strong>&emsp;<strong>enjoy leisure</strong>  
 <div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/park.png?raw=true"/></div>
 
 - Beijing is a large city with many parks, numbering 1,000+
@@ -41,7 +41,7 @@
 
 # 2.Technical Realisation
 ## 2.1 Usage Process
-<div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/426c4185871725254aa3232bf44061c.png?raw=true"/></div>
+<div align=center><img src=""/></div>
 
 ## 2.2 Functional Realisation
 - Implementation of all page jumps
