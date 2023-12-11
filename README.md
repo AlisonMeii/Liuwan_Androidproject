@@ -41,7 +41,7 @@
 
 # 2.Technical Realisation
 ## 2.1 Usage Process
-<div align=center><img src=""/></div>
+<div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/process.png?raw=true"/></div>
 
 ## 2.2 Functional Realisation
 - Implementation of all page jumps
