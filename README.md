@@ -20,7 +20,7 @@
 - Full-featured
 
 ## 1.3 Theme Colours
-&emsp;&emsp;We used the following colour palette to design the overall UI interface. We designed different theme colours according to the characteristics of different seasons as follows, for example, in spring we chose the vibrant green :sunny: , in summer we chose the delicious watermelon as the theme colour :yum: , in autumn we chose the gloomy brownish-yellow :maple_leaf: , and in winter we chose the snow-white and dark blue :snowflake: .
+&emsp;&emsp;We used the following colour palette to design the overall UI interface. We designed different theme colours according to the characteristics of different seasons as follows, for example, in spring we chose the vibrant green :leaves: , in summer we chose the delicious watermelon as the theme colour :yum: , in autumn we chose the gloomy brownish-yellow :maple_leaf: , and in winter we chose the snow-white and dark blue :snowflake: .
 <div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/color.png?raw=true"/></div>
 
 ## 1.4 Logo & IP
