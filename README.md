@@ -45,6 +45,7 @@
 
 ## 2.2 Functional Realisation
 - Implementation of all page jumps
+- All front-end pages have been developed according to the UI design.
 - More difficult interface animation: after scrolling down, a hoverball button appears, and you can jump by clicking on it
 - Use Baidu Map API to achieve location acquisition and positioning function
 <div align=center><img src="https://github.com/AlisonMeii/Liuwan_Androidproject/blob/main/Image/navi.png?raw=true"/></div>
